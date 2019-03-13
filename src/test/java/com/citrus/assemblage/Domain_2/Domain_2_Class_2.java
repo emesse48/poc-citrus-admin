@@ -7,12 +7,12 @@ import com.consol.citrus.annotations.CitrusTest;
 import com.consol.citrus.dsl.testng.TestNGCitrusTestDesigner;
 
 @Test
-public class SuiteTest extends TestNGCitrusTestDesigner{    
+public class Domain_2_Class_2 extends TestNGCitrusTestDesigner{    
 	
 	@Test
     @CitrusTest
-    public void REST_GET(){    	
-    	System.out.println("Suite 1 Run.");
+    public void D2C2_Method(){
+    	System.out.println("D2C2_Method Run.");
     }	
 
 }
